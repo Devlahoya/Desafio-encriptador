@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header> 
+    <div class="cajaHeader"> 
+        <ul>
+            <li>                        
+                <img class="logo" src="./imagenes/logo.png">                                              
+            </li>
+            <li>
+                <h1>Challenge  ONE Encriptador de texto</h1>
+            </li>
+            
+        </ul>
+        
+    </div>         
+   
+</header>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <p class="instruccion">Bienvenido agente, recuerda que esta herramienta es para comunicar mensajes secretos ;)</p>
+        <textarea id="textoInput" rows="4" cols="50" placeholder="Escribe aquí tu texto"></textarea><br>
+        <button onclick="encriptar()">Encriptar</button>
+        <button onclick="desencriptar()" style="background-color: #ffff; color: #0a3871;">Desencriptar</button>
+        <button onclick="resetear()">Resetear</button>
+        <div id="imagenResultado" class="imagen">
+            <img src="imagen_encriptado.png" alt="Resultado encriptado">
+            <h1 >Ningún mensaje fue encontrado</h1>
+            <p class="instruccion">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div id="respuesta" style="display: none;">
+            <h1>Resultado</h1>
+        <div id="resultado">
+            <div id="textoResultado"></div>
+            <button onclick="copiarTexto()">Copiar Texto</button>
+        </div>
+        <h1>Historial</h1>
+        <div id="historial"></div>        
+        </div>
+    </div>
+    <footer class="piepagina">     
+        <div class="sociales">
+         <ul>
+            <li>&copy; Humberto Suarez Santo 2024</li>   <br>        
+            <li class="items"><a href="https://github.com/hmsjuan"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png"> </a></li>
+            <li class="items"><a href="https://www.linkedin.com/in/hssanto/"><img src="https://cdn.iconscout.com/icon/free/png-256/free-linkedin-40-151141.png"> </a></li>
+         </ul>             
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

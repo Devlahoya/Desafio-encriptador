@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5fc;
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar contenido en el contenedor */
+}
+
+h1 {
+    color: #007bff;
+}
+
+.instruccion {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: calc(100% - 20px); /* Ajustar el ancho del textarea */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    width: calc(33.33% - 7px); /* Ajuste del ancho para mostrar 3 botones por fila */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-color: #0a3871;;
+    background-color: #0a3871;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.imagen {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mensaje-vacio {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #999;
+}
+
+.texto {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    display: none;
+}
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #333;
+}
+#historial {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
